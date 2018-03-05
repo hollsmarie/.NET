@@ -1,0 +1,10 @@
+/Users/Holly/Desktop/DojoAssignments/netCore/first_csharp/bin/Debug/netcoreapp2.0/first_csharp.deps.json
+/Users/Holly/Desktop/DojoAssignments/netCore/first_csharp/bin/Debug/netcoreapp2.0/first_csharp.runtimeconfig.json
+/Users/Holly/Desktop/DojoAssignments/netCore/first_csharp/bin/Debug/netcoreapp2.0/first_csharp.runtimeconfig.dev.json
+/Users/Holly/Desktop/DojoAssignments/netCore/first_csharp/bin/Debug/netcoreapp2.0/first_csharp.dll
+/Users/Holly/Desktop/DojoAssignments/netCore/first_csharp/bin/Debug/netcoreapp2.0/first_csharp.pdb
+/Users/Holly/Desktop/DojoAssignments/netCore/first_csharp/obj/Debug/netcoreapp2.0/first_csharp.csproj.CoreCompileInputs.cache
+/Users/Holly/Desktop/DojoAssignments/netCore/first_csharp/obj/Debug/netcoreapp2.0/first_csharp.AssemblyInfoInputs.cache
+/Users/Holly/Desktop/DojoAssignments/netCore/first_csharp/obj/Debug/netcoreapp2.0/first_csharp.AssemblyInfo.cs
+/Users/Holly/Desktop/DojoAssignments/netCore/first_csharp/obj/Debug/netcoreapp2.0/first_csharp.dll
+/Users/Holly/Desktop/DojoAssignments/netCore/first_csharp/obj/Debug/netcoreapp2.0/first_csharp.pdb

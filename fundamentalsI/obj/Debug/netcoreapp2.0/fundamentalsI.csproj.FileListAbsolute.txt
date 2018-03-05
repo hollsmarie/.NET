@@ -1,0 +1,10 @@
+/Users/Holly/Desktop/DojoAssignments/netCore/fundamentalsI/bin/Debug/netcoreapp2.0/fundamentalsI.deps.json
+/Users/Holly/Desktop/DojoAssignments/netCore/fundamentalsI/bin/Debug/netcoreapp2.0/fundamentalsI.runtimeconfig.json
+/Users/Holly/Desktop/DojoAssignments/netCore/fundamentalsI/bin/Debug/netcoreapp2.0/fundamentalsI.runtimeconfig.dev.json
+/Users/Holly/Desktop/DojoAssignments/netCore/fundamentalsI/bin/Debug/netcoreapp2.0/fundamentalsI.dll
+/Users/Holly/Desktop/DojoAssignments/netCore/fundamentalsI/bin/Debug/netcoreapp2.0/fundamentalsI.pdb
+/Users/Holly/Desktop/DojoAssignments/netCore/fundamentalsI/obj/Debug/netcoreapp2.0/fundamentalsI.csproj.CoreCompileInputs.cache
+/Users/Holly/Desktop/DojoAssignments/netCore/fundamentalsI/obj/Debug/netcoreapp2.0/fundamentalsI.AssemblyInfoInputs.cache
+/Users/Holly/Desktop/DojoAssignments/netCore/fundamentalsI/obj/Debug/netcoreapp2.0/fundamentalsI.AssemblyInfo.cs
+/Users/Holly/Desktop/DojoAssignments/netCore/fundamentalsI/obj/Debug/netcoreapp2.0/fundamentalsI.dll
+/Users/Holly/Desktop/DojoAssignments/netCore/fundamentalsI/obj/Debug/netcoreapp2.0/fundamentalsI.pdb
