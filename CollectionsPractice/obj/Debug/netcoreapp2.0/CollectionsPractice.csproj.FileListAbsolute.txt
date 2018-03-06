@@ -1,0 +1,10 @@
+/Users/Holly/Desktop/DojoAssignments/netCore/CollectionsPractice/bin/Debug/netcoreapp2.0/CollectionsPractice.deps.json
+/Users/Holly/Desktop/DojoAssignments/netCore/CollectionsPractice/bin/Debug/netcoreapp2.0/CollectionsPractice.runtimeconfig.json
+/Users/Holly/Desktop/DojoAssignments/netCore/CollectionsPractice/bin/Debug/netcoreapp2.0/CollectionsPractice.runtimeconfig.dev.json
+/Users/Holly/Desktop/DojoAssignments/netCore/CollectionsPractice/bin/Debug/netcoreapp2.0/CollectionsPractice.dll
+/Users/Holly/Desktop/DojoAssignments/netCore/CollectionsPractice/bin/Debug/netcoreapp2.0/CollectionsPractice.pdb
+/Users/Holly/Desktop/DojoAssignments/netCore/CollectionsPractice/obj/Debug/netcoreapp2.0/CollectionsPractice.csproj.CoreCompileInputs.cache
+/Users/Holly/Desktop/DojoAssignments/netCore/CollectionsPractice/obj/Debug/netcoreapp2.0/CollectionsPractice.AssemblyInfoInputs.cache
+/Users/Holly/Desktop/DojoAssignments/netCore/CollectionsPractice/obj/Debug/netcoreapp2.0/CollectionsPractice.AssemblyInfo.cs
+/Users/Holly/Desktop/DojoAssignments/netCore/CollectionsPractice/obj/Debug/netcoreapp2.0/CollectionsPractice.dll
+/Users/Holly/Desktop/DojoAssignments/netCore/CollectionsPractice/obj/Debug/netcoreapp2.0/CollectionsPractice.pdb
