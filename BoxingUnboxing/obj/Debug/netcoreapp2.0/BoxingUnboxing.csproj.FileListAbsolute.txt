@@ -1,0 +1,10 @@
+/Users/Holly/Desktop/DojoAssignments/netCore/BoxingUnboxing/bin/Debug/netcoreapp2.0/BoxingUnboxing.deps.json
+/Users/Holly/Desktop/DojoAssignments/netCore/BoxingUnboxing/bin/Debug/netcoreapp2.0/BoxingUnboxing.runtimeconfig.json
+/Users/Holly/Desktop/DojoAssignments/netCore/BoxingUnboxing/bin/Debug/netcoreapp2.0/BoxingUnboxing.runtimeconfig.dev.json
+/Users/Holly/Desktop/DojoAssignments/netCore/BoxingUnboxing/bin/Debug/netcoreapp2.0/BoxingUnboxing.dll
+/Users/Holly/Desktop/DojoAssignments/netCore/BoxingUnboxing/bin/Debug/netcoreapp2.0/BoxingUnboxing.pdb
+/Users/Holly/Desktop/DojoAssignments/netCore/BoxingUnboxing/obj/Debug/netcoreapp2.0/BoxingUnboxing.csproj.CoreCompileInputs.cache
+/Users/Holly/Desktop/DojoAssignments/netCore/BoxingUnboxing/obj/Debug/netcoreapp2.0/BoxingUnboxing.AssemblyInfoInputs.cache
+/Users/Holly/Desktop/DojoAssignments/netCore/BoxingUnboxing/obj/Debug/netcoreapp2.0/BoxingUnboxing.AssemblyInfo.cs
+/Users/Holly/Desktop/DojoAssignments/netCore/BoxingUnboxing/obj/Debug/netcoreapp2.0/BoxingUnboxing.dll
+/Users/Holly/Desktop/DojoAssignments/netCore/BoxingUnboxing/obj/Debug/netcoreapp2.0/BoxingUnboxing.pdb
