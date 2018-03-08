@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(126, 184, 179);
+}
+
+img{
+    width: 30vw;
+    height: auto;
+    display: inline-block;
+    border: 2px solid white;
+}
+
+input{
+    width: 25vw;
+    margin-bottom: 10px;
+    
+}
+textarea{
+    width: 25vw;
+    height: 10vh;
+    margin-top: 10px;
+}
+button{
+    margin-top: 10px;
+}
+label{
+    vertical-align: top;
+    
+}
