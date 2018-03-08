@@ -1,0 +1,10 @@
+/Users/Holly/Desktop/DojoAssignments/netCore/DojoSurveyinC/bin/Debug/netcoreapp2.0/DojoSurveyinC.deps.json
+/Users/Holly/Desktop/DojoAssignments/netCore/DojoSurveyinC/bin/Debug/netcoreapp2.0/DojoSurveyinC.runtimeconfig.json
+/Users/Holly/Desktop/DojoAssignments/netCore/DojoSurveyinC/bin/Debug/netcoreapp2.0/DojoSurveyinC.runtimeconfig.dev.json
+/Users/Holly/Desktop/DojoAssignments/netCore/DojoSurveyinC/bin/Debug/netcoreapp2.0/DojoSurveyinC.dll
+/Users/Holly/Desktop/DojoAssignments/netCore/DojoSurveyinC/bin/Debug/netcoreapp2.0/DojoSurveyinC.pdb
+/Users/Holly/Desktop/DojoAssignments/netCore/DojoSurveyinC/obj/Debug/netcoreapp2.0/DojoSurveyinC.csproj.CoreCompileInputs.cache
+/Users/Holly/Desktop/DojoAssignments/netCore/DojoSurveyinC/obj/Debug/netcoreapp2.0/DojoSurveyinC.AssemblyInfoInputs.cache
+/Users/Holly/Desktop/DojoAssignments/netCore/DojoSurveyinC/obj/Debug/netcoreapp2.0/DojoSurveyinC.AssemblyInfo.cs
+/Users/Holly/Desktop/DojoAssignments/netCore/DojoSurveyinC/obj/Debug/netcoreapp2.0/DojoSurveyinC.dll
+/Users/Holly/Desktop/DojoAssignments/netCore/DojoSurveyinC/obj/Debug/netcoreapp2.0/DojoSurveyinC.pdb
