@@ -1,0 +1,10 @@
+/Users/Holly/Desktop/DojoAssignments/netCore/RandomPasscode/bin/Debug/netcoreapp2.0/RandomPasscode.deps.json
+/Users/Holly/Desktop/DojoAssignments/netCore/RandomPasscode/bin/Debug/netcoreapp2.0/RandomPasscode.runtimeconfig.json
+/Users/Holly/Desktop/DojoAssignments/netCore/RandomPasscode/bin/Debug/netcoreapp2.0/RandomPasscode.runtimeconfig.dev.json
+/Users/Holly/Desktop/DojoAssignments/netCore/RandomPasscode/bin/Debug/netcoreapp2.0/RandomPasscode.dll
+/Users/Holly/Desktop/DojoAssignments/netCore/RandomPasscode/bin/Debug/netcoreapp2.0/RandomPasscode.pdb
+/Users/Holly/Desktop/DojoAssignments/netCore/RandomPasscode/obj/Debug/netcoreapp2.0/RandomPasscode.csproj.CoreCompileInputs.cache
+/Users/Holly/Desktop/DojoAssignments/netCore/RandomPasscode/obj/Debug/netcoreapp2.0/RandomPasscode.AssemblyInfoInputs.cache
+/Users/Holly/Desktop/DojoAssignments/netCore/RandomPasscode/obj/Debug/netcoreapp2.0/RandomPasscode.AssemblyInfo.cs
+/Users/Holly/Desktop/DojoAssignments/netCore/RandomPasscode/obj/Debug/netcoreapp2.0/RandomPasscode.dll
+/Users/Holly/Desktop/DojoAssignments/netCore/RandomPasscode/obj/Debug/netcoreapp2.0/RandomPasscode.pdb
