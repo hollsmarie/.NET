@@ -19,12 +19,12 @@ namespace CrudSQL_Assignment
         public static void create()
         {
             System.Console.WriteLine("Please enter your first name:");
-            string FirstName = "" + Console.ReadLine() + "";
+            string FirstName = Console.ReadLine();
             System.Console.WriteLine("Please enter your last name:");
-            string LastName = "" + Console.ReadLine() + "";
+            string LastName = Console.ReadLine();
             System.Console.WriteLine("Please enter your favorite number:");
             string FavoriteNumber = Console.ReadLine();
-            string query = $"INSERT into Users(FirstName, LastName, FavoriteNumber) VALUES ({FirstName}, {LastName}, {FavoriteNumber})";
+            string query = $"INSERT into Users(FirstName, LastName, FavoriteNumber) VALUES ('{FirstName}', '{LastName}', '{FavoriteNumber}')";
             System.Console.WriteLine(query);
             DbConnector.Execute(query);
             read();
