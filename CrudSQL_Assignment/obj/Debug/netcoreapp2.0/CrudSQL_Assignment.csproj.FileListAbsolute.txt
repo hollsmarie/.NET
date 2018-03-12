@@ -1,0 +1,10 @@
+/Users/Holly/Desktop/DojoAssignments/netCore/CrudSQL_Assignment/bin/Debug/netcoreapp2.0/CrudSQL_Assignment.deps.json
+/Users/Holly/Desktop/DojoAssignments/netCore/CrudSQL_Assignment/bin/Debug/netcoreapp2.0/CrudSQL_Assignment.runtimeconfig.json
+/Users/Holly/Desktop/DojoAssignments/netCore/CrudSQL_Assignment/bin/Debug/netcoreapp2.0/CrudSQL_Assignment.runtimeconfig.dev.json
+/Users/Holly/Desktop/DojoAssignments/netCore/CrudSQL_Assignment/bin/Debug/netcoreapp2.0/CrudSQL_Assignment.dll
+/Users/Holly/Desktop/DojoAssignments/netCore/CrudSQL_Assignment/bin/Debug/netcoreapp2.0/CrudSQL_Assignment.pdb
+/Users/Holly/Desktop/DojoAssignments/netCore/CrudSQL_Assignment/obj/Debug/netcoreapp2.0/CrudSQL_Assignment.csproj.CoreCompileInputs.cache
+/Users/Holly/Desktop/DojoAssignments/netCore/CrudSQL_Assignment/obj/Debug/netcoreapp2.0/CrudSQL_Assignment.AssemblyInfoInputs.cache
+/Users/Holly/Desktop/DojoAssignments/netCore/CrudSQL_Assignment/obj/Debug/netcoreapp2.0/CrudSQL_Assignment.AssemblyInfo.cs
+/Users/Holly/Desktop/DojoAssignments/netCore/CrudSQL_Assignment/obj/Debug/netcoreapp2.0/CrudSQL_Assignment.dll
+/Users/Holly/Desktop/DojoAssignments/netCore/CrudSQL_Assignment/obj/Debug/netcoreapp2.0/CrudSQL_Assignment.pdb
