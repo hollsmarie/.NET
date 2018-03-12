@@ -1,0 +1,216 @@
+/*CSS reset settings here*/
+*{
+    margin: 0px;
+    padding: 0px;
+    }
+
+#container{
+    background-color: pink;
+    height: 800px;
+    width: 970px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    padding: 40px auto;
+}
+
+.Values{
+    display: inline;
+    vertical-align: top;
+    padding: 10px;
+    margin: 40px auto;
+
+}
+
+.buttons{
+    display: inline-block;
+    vertical-align: top;
+    padding: 10px;
+    margin: 40px auto;
+    
+    
+}
+
+
+
+
+/* *{
+    margin: 0px;
+    padding: 0px;
+    }
+    
+    #wrapper{
+    background-color: #284f75;
+    height: 800px;
+    width: 970px;
+    font-family: 'Arial Narrow';
+    }
+    
+        #python{
+            width: 240px;
+            height: 200;
+        }
+        
+        #toptext{
+            text-align: right;
+            color: white;
+            margin-right: 80px;
+        }
+    
+        #toptextyellow{
+            color: yellow;
+        }
+    
+        #bottomtext{
+            color: white;
+            font-size: 16px;
+        }
+    
+    #search{
+    background-color: white;
+    width: 200px;
+    height: 20px;
+    border-style: solid;
+    border-color: rgb(56, 55, 55);
+    border-width: 20px;
+    border-radius: 15%;
+    display: inline-block;
+    margin: 0px 0px 0px 450px;
+    padding: 0px 0px 0px 0px;
+    vertical-align: top;
+    }
+    
+        #goButton{
+            background-color: green;
+            color: white;
+        }
+      
+    #header{
+    background-color: #487ead;
+    height: 50px;
+    width: 800px;
+    border-radius: 10%;
+    margin: 0px 0px 0px 75px;
+    padding: 0px 0px 0px 0px;
+    text-align: center;
+    font-size: 20px;
+    }
+    
+        .headermenu{
+            display: inline-block;
+            padding-top: 10px;
+        }
+    
+        .headermenu a{
+            color:white;
+            text-decoration: none;
+            margin: 20px 20px 20px 20px;
+            padding: 10px 10px 10px 10px;
+        }
+        
+        #main_content{
+        background-color: #284f75;
+        width: 500px;
+        padding: 10px 10px 10px 10px;
+        margin-left: 50px; 
+        text-align: center;
+        color: white;
+        display: inline-block;
+        font-family: 'Arial Narrow';
+        font-size: 14px;
+        }
+    
+            #main_content .quote{
+                color: yellow;
+                font-style: italic;
+                font-size: 16px;
+                font-family: Arial;
+                margin: 5px 0px 5px 0px;
+                padding: 5px;
+            }
+    
+        #subcontent{
+        background-color: #284f75;
+        display: inline-block;
+        margin-left: 150px;
+        padding: 50px 10px 10px 10px;
+        text-align: center;
+        color: white;
+        text-decoration: none;
+        vertical-align: top;
+        }
+            
+            .sidemenu{
+                color: white;
+                display: block;
+                position: relative;
+            }
+    
+            .sidemenu a{
+                color: white;
+                margin: 10px 5px 10px 5px;
+                font-size: 20px;
+                font-family: 'Arial Narrow';
+            }
+    
+    #gettingStarted{
+        background-color: white;
+        border-color: black;
+        height: 250px;
+        width: 484px;
+        margin-top: 100px; 
+        vertical-align: bottom;
+        display: inline-block;
+        text-align: center;
+        border-top: 3px solid black;
+        border-bottom: 3px solid black;
+    }
+    
+        #spantag{
+            color: #60a2db;
+            text-decoration: none;
+        }
+    
+    #applications{
+        background-color: white;
+        border-color: black;
+        height: 250px;
+        width: 482px;
+        vertical-align: bottom;
+        display: inline-block;
+        text-align: center;
+        border-top: 3px solid black;
+        border-bottom: 3px solid black;
+    }
+    
+    .liBlue{
+        list-style-position: inside;
+    }
+    
+    .liBlue a{
+        color: #60a2db;
+        text-decoration: none;
+        text-align: center;
+    }
+    
+    
+    #footer{
+        background-color: #284f75;
+        height:100px;
+        width: 970px;
+        text-align: center;
+        padding: 20px 0px 0px 0px;
+    }
+    
+        .bottomtext{
+            display: inline;
+            color: white;
+            margin: 20px 0px 0px 0px;
+            padding: 40px 0px 0px 0px;
+        }
+    
+        .bottomtext a{
+            color:  #60a2db;
+            font-family: 'Arial Narrow';
+            font-size: 20px;
+            margin: 20px;
+        } */

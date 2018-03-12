@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="~/css/style.css"/>
+    <title>Document</title>
+</head> 
+<body>@{
+
+<div id="container">
+    <div class="Values">
+        <ul>
+            <li> <h3>Fullness = @TempData["fulllevel"]</h3></li>
+            <li><h3>Happiness =  @TempData["happylevel"]</h3></li>
+            <li><h3>Meals = @TempData["meallevel"]</h3></li>
+            <li><h3>Energy = @TempData["energylevel"]</h3></li>
+            <li><h3>@TempData["win"]@TempData["lose"]</h3></li>
+        </ul>
+
+    </div>
+
+    <div>
+        <img src="~/images/lola.jpg"alt="Sample Image" width="300px">
+        <h3>@TempData["action"]</h3>
+    </div>
+    
+    <div class="buttons">
+    <ul>
+        <li> <form action='feed' method='post'>
+        <input type='submit' value='Feed'></form></li>
+    
+       <li><form action='play' method='post'>
+        <input type='submit' value='Play'></form></li>
+    
+       <li><form action='work' method='post'>
+        <input type='submit' value='Work'></form></li>
+    
+        <li><form action='sleep' method='post'>
+        <input type='submit' value='Sleep'></form></li>
+    
+        <li><form action='reset' method='post'>
+        <input type='submit' value='Restart'></form></li>
+        </ul>
+    </div>
+</div>
+}
+</body>
+</html>
