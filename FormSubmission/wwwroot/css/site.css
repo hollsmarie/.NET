@@ -1,0 +1,8 @@
+/*Write all of your CSS here*/
+
+#form{
+display: inline-block;
+vertical-align: top;
+padding: 40px auto;
+margin: 40px auto;
+}
