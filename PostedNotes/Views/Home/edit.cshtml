@@ -1,0 +1,36 @@
+@{
+    ViewData["Edot"] = "Edot Page";
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+    <body>
+        <h1>Current Note:</h1>
+        @foreach(var note in ViewBag.Edit)
+        {
+            <h5>@note["Title"]</h5>
+            <p>@note["Description"] </p>
+            <p>@note["CreatedAt"]</p>
+        
+
+        <h1>Edit Note Below:</h1>
+
+        <form action='/update/@note["id"]' method="POST">
+        <label> Change Title: </label>
+        <input type="text" name="Title" value='@note["Title"]'>
+        
+
+        <label>Change Description: </label>
+        <textarea name="Description"> @note["Description"]</textarea>
+     
+     
+        <input type="submit" value="submit">
+        </form>
+        }
+    </body>
+</html>
