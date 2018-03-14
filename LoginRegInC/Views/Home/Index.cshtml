@@ -1,0 +1,40 @@
+@{
+    ViewData["Title"] = "Home Page";
+}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+</head>
+
+<body>
+
+    <h1>Registration</h1>
+        <div id="form">
+            @model LoginRegInC.Models.User
+            <form  asp-controller = 'Home' asp-action='Register' method='POST'>
+                <span asp-validation-for="firstname"></span>
+                <label> First Name:</label>
+                <input asp-for="firstname"/>
+                <span asp-validation-for="lastname"></span>
+                <label> Last Name:</label>
+                <input asp-for="lastname"/>
+                <span asp-validation-for="email"></span>
+                <label> Email:</label>
+                <input asp-for="email"/>
+                <span asp-validation-for="password"></span>
+                <label> Password:</label>
+                <input asp-for="password"/>
+                <span asp-validation-for="confirm"></span>
+                <label> Confirm Password:</label>
+                <input asp-for="confirm"/>
+                <input type="submit" value="Submit">
+            </form>
+        <a href="/login"> Already registered? Login here.</a>
+        </div>
+</body>
+</html>

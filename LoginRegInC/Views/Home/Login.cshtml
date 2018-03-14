@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+
+<h1>Login</h1>
+    @model LoginRegInC.Models.Login
+    <h2>@ViewBag.Email</h2>
+    <h2>@ViewBag.Password</h2>
+    <form  asp-controller = 'Home' asp-action='LogUser' method='POST'>       
+        
+                <span asp-validation-for="email"></span>
+                <label> Email:</label>
+                <input asp-for="email"/>
+                <span asp-validation-for="password"></span>
+                <label> Password:</label>
+                <input asp-for="password"/>
+                 <input type="submit" value="Submit">
+        </form>
+    <a href="/"> Not a registered user? Register here.</a>
+
+</body>
+</html>
