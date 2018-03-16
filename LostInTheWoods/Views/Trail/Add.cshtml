@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Add A New Trail</h1>
+        <div id="form">
+            @model LostInTheWoods.Models.Trail
+            <form  asp-action="addTrail"  asp-controller = "Trail" >
+                
+                <span asp-validation-for="Name"></span>
+                <label> Trail Name:</label>
+                <input asp-for="Name"/>
+                <br>
+                <span asp-validation-for="Description"></span>
+                <label> Description:</label>
+                <textarea name="Description" cols="25" rows="3"></textarea>
+                <br>
+                <span asp-validation-for="Length"></span>
+                <label> Trail Length:</label>
+                <input asp-for="Length"/>
+                <br>
+                <span asp-validation-for="Elevation"></span>
+                <label> Elevation:</label>
+                <input asp-for="Elevation"/>
+                <br>
+                <span asp-validation-for="Longitude"></span>
+                <label> Longitude:</label>
+                <input asp-for="Longitude"/>
+                <br>
+                <span asp-validation-for="Latitude"></span>
+                <label> Latitude:</label>
+                <input asp-for="Latitude"/>
+                <br>
+                <input type="submit" value="Create Record!">
+            </form>
+    
+        </div>
+        <a href="/"> Go Home</a>
+    
+</body>
+</html>
