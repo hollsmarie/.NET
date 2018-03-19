@@ -1,0 +1,32 @@
+@model RESTauranter.Models.Review
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Write a new Review:</h1>
+    <form asp-controller="Review" asp-action="LeaveReview" data-method="post">
+    <label>Reviewer Name:</label>
+    <span asp-validation-for="ReviewName"></span>
+    <input class="form-control" asp-for="ReviewName">
+    <label>Restaurant Name:</label>
+    <span asp-validation-for="RestName"></span>
+    <input class="form-control" asp-for="RestName">
+    <label>Review:</label>
+    <span asp-validation-for="Comment"></span>
+    <input class="form-control" asp-for="Comment">
+    <label>Date Visited:</label>
+    <span asp-validation-for="VisitDate"></span>
+    <input class="form-control" asp-for="VisitDate">
+    <label>Stars:</label>
+    <span asp-validation-for="Stars"></span>
+    <input class="form-control" asp-for="Stars">
+    <br>
+    <button class="btn btn-info">Leave Review</button>
+</form>
+</body>
+</html>

@@ -1,0 +1,24 @@
+    @model RESTauranter.Models.Review
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Document</title>
+    </head>
+    <body>
+       
+    @foreach(var review in ViewBag.Reviews)
+    {
+        <h1>Review for: @review.RestName</h1>
+        <h3>This Review was left by: @review.ReviewName</h3>
+        <p>@review.Comment</p>
+        <h4>@review.VisitDate</h4>
+        <h4>@review.Stars</h4>
+    }
+
+    <a href="/">Leave another Review</a>
+    
+    </body>
+    </html>
