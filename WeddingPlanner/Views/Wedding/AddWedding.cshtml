@@ -1,0 +1,36 @@
+@model WeddingPlanner.Models.Wedding
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Plan Your Wedding</h1>
+        <div id="form">
+            <form  asp-controller = "Wedding" asp-action="createWedding" method='POST'>
+                
+                <label> Wedder One:</label>
+                <span asp-validation-for="WedderOne"></span>
+                <input class="form-control" asp-for="WedderOne"/>
+   
+                <label> Wedder Two:</label>
+                <span asp-validation-for="WedderTwo"></span>
+                <input  class="form-control" asp-for="WedderTwo"/>
+
+                <label> Date:</label>
+                <span asp-validation-for="Date"></span>
+                <input  class="form-control" asp-for="Date"/>
+
+                <label> Wedding Location:</label>
+                <span asp-validation-for="Address"></span>
+                <input  class="form-control" asp-for="Address"/>
+               
+                <button class="btn btn-info">Add</button>
+            </form>
+        <button class="btn btn-info"> <a href="logout">Logout</a></button>
+        <button class="btn btn-info"> <a href="weddings">Back to Dashboard</a></button>
+</body>
+</html>

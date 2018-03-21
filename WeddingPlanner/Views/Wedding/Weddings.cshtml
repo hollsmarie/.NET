@@ -1,0 +1,46 @@
+@model WeddingPlanner.Models.Wedding
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Welcome to the Wedding Planner</h1>
+<table class="table table-striped">
+    <tr>
+        <th>Wedding</th>
+        <th>Date</th>
+        <th>Number of Guests</th>
+        <th>Action</th>
+    </tr>
+   
+        @foreach (var wedding in ViewBag.Weddings)
+        {
+        <tr>
+            <td><a asp-action="Show" asp-controller="Wedding" asp-route-WeddingId="@wedding["WeddingId"]">@wedding["WedderOne"] &amp; @wedding["WedderTwo"]</a></td>
+            <td>@wedding["Date"]</td>
+            <td>@wedding["RSVPS"]</td>
+            @if(wedding["Owned"])
+            {
+                <td><a asp-action="Delete" asp-controller="Wedding" asp-route-WeddingId="@wedding["WeddingId"]">Delete</a></td>
+            }
+            else if (wedding["RSVPED"])
+            {
+                <td><a asp-action="UnRSVP" asp-controller="Wedding" asp-route-WeddingId="@wedding["WeddingId"]">RSVP No</a></td>
+            }
+            else
+            {
+                <td><a asp-action="Reserve" asp-controller="Wedding" asp-route-WeddingId="@wedding["WeddingId"]">RSVP Yes</a></td>
+            }
+        </tr>
+        }
+        
+    
+</table>
+<button class="btn btn-info"> <a href="logout">Logout</a></button>
+<button class="btn btn-info"> <a href="addWedding">Add a new Wedding</a></button>
+</body>
+</html>

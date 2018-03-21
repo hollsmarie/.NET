@@ -1,0 +1,45 @@
+@model WeddingPlanner.Models.Register
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+</head>
+
+<body>
+
+    <h1>Registration</h1>
+    <h3>@ViewBag.Message</h3>
+        <div id="form">
+            <form  asp-controller = "User" asp-action="Register" method='POST'>
+                
+                <label> First Name:</label>
+                <span asp-validation-for="firstname"></span>
+                <input class="form-control" asp-for="firstname"/>
+   
+                <label> Last Name:</label>
+                <span asp-validation-for="lastname"></span>
+                <input  class="form-control" asp-for="lastname"/>
+
+                <label> Email:</label>
+                <span asp-validation-for="email"></span>
+                <input  class="form-control" asp-for="email"/>
+
+                <label> Password:</label>
+                <span asp-validation-for="password"></span>
+                <input  class="form-control" asp-for="password"/>
+
+                <label> Confirm Password:</label>
+                <span asp-validation-for="confirm"></span>
+                <input class="form-control" asp-for="confirm"/>
+               
+                <button class="btn btn-info">Register</button>
+            </form>
+        <a href="login"> Already registered? Login here.</a>
+        </div>
+</body>
