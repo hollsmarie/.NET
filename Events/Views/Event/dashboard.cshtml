@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1 class="title">Event Dashboard</h1>
+
+<p>Welcome, @ViewBag.User.firstname</p>
+
+<table class="table table-striped">
+    <tr>
+        <th> Host</th>
+        <th> Date</th>
+        <th> Reason</th>
+        <th> People Going</th>
+    </tr>
+    <tbody>
+    @foreach(var party in ViewBag.Events)
+    {
+        <tr>
+        <td><a href="show/@party.EventId">@party.Host</a></td>
+        <td>@party.Date.ToString("MMM dd, yyyy")</td>
+        <td>@party.Reason</td>
+        <td>@party.Likes.Count</td>
+        @if(party.UserId == ViewBag.User.UserId)
+        {
+            <td><a href="/delete/@party.EventId">Delete</a></td>
+        }
+        else
+        {
+            bool found = false;
+            @foreach(var like in party.Likes)
+            {
+                @if(like.UserId == ViewBag.User.UserId)
+                {
+                    found = true;
+                }
+            }
+            @if(found == true)
+            {
+                <td><a href="/unlike/@party.EventId">Dislike</a></td>
+            }
+            else
+            {
+                
+                <td><a href="/like/@party.EventId">Like</a></td>
+                
+            }
+        }
+        </tr>
+
+    }
+</tbody>
+</table>
+
+<button class="btn btn-info"> <a href="logout">Logout</a></button>
+<button class="btn btn-info"> <a href="/eventForm">Plan an Event</a></button>
+</body>
+</html>

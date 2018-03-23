@@ -1,0 +1,62 @@
+@model Events.Models.UserViewModels
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+</head>
+
+<body>
+    <h1>Welcome!</h1>
+
+    <h2>Registration</h2>
+    <h3>@ViewBag.Message</h3>
+        <div id="form">
+            <form  asp-controller = "User" asp-action="Register" method='POST'>
+                
+                <label> First Name:</label>
+                <span asp-validation-for="Reg.firstname"></span>
+                <input class="form-control" asp-for="Reg.firstname"/>
+   
+                <label> Last Name:</label>
+                <span asp-validation-for="Reg.lastname"></span>
+                <input  class="form-control" asp-for="Reg.lastname"/>
+
+                <label> Email:</label>
+                <span asp-validation-for="Reg.email"></span>
+                <input  class="form-control" asp-for="Reg.email"/>
+
+                <label> Password:</label>
+                <span asp-validation-for="Reg.password"></span>
+                <input  class="form-control" asp-for="Reg.password"/>
+
+                <label> Confirm Password:</label>
+                <span asp-validation-for="Reg.confirm"></span>
+                <input class="form-control" asp-for="Reg.confirm"/>
+               
+                <button class="btn btn-info">Register</button>
+            </form>
+       
+        </div>
+
+
+    <h2>Login</h2>
+<h3>@ViewBag.Message</h3>
+    <form  asp-controller = "User" asp-action="LogUser" method='POST'>     
+                <label> Email:</label>
+                <span asp-validation-for="Login.email"></span>
+                <input class="form-control" asp-for="Login.email"/>
+                
+                <label> Password:</label>
+                <span asp-validation-for="Login.password"></span>
+                <input class="form-control" asp-for="Login.password"/>
+               
+                <button class="btn btn-info">Login</button>
+        </form>
+   
+</body>

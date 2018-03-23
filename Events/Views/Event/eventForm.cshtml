@@ -1,0 +1,37 @@
+@model Events.Models.Event
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1 class="title">Let's have a party!</h1>
+        <div id="form">
+            <form  asp-controller = "Event" asp-action="Add" method='POST'>
+                
+                <label> Who's hosting?</label>
+                <span asp-validation-for="Host"></span>
+                <input class="form-control" asp-for="Host"/>
+   
+                <label> When is it?</label>
+                <span asp-validation-for="Date"></span>
+                <input  class="form-control" asp-for="Date"/>
+
+                <label> What's the occasion?</label>
+                <span asp-validation-for="Reason"></span>
+                <input  class="form-control" asp-for="Reason"/>
+
+                <label> Where should we meet you?:</label>
+                <span asp-validation-for="Location"></span>
+                <input  class="form-control" asp-for="Location"/>
+               
+                <button class="btn btn-info">Add</button>
+            </form>
+        <button class="btn btn-info"> <a href="logout">Logout</a></button>
+        <button class="btn btn-info"> <a href="dashboard">Back to Dashboard</a></button>
+</body>
+</html>
